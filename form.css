@@ -1,0 +1,42 @@
+body{
+    font-family: "Nimbus Sans";
+    background-color: white;
+    display: flex;
+    background-image: url("images/ocean.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    image-rendering: pixelated;
+}
+form{
+    background-color: yellow;
+    padding: 20px 30px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 5px gray;
+}
+h1{
+    color: #08080a;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover{
+    background-color: lightskyblue;
+}
